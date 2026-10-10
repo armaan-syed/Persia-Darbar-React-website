@@ -9,24 +9,31 @@ export default function Hero() {
       <div className="container hero__inner">
         <p className="hero__eyebrow reveal">Est. 1994 · Lahore · Dubai</p>
 
-        <h1 className="hero__title reveal">
+        <h1 className="hero__title reveal" data-patchwork-id="hero-heading">
           Persia <span>Darbar</span>
         </h1>
 
         <div className="hero__rule reveal" />
 
-        <p className="hero__tagline reveal">
+        <p
+          className="hero__tagline reveal"
+          data-patchwork-id="hero-tagline"
+        >
           Authentic Chinese &amp; Mughlai Flavours, Crafted with Tradition
         </p>
 
-        <p className="hero__lead reveal">
+        <p className="hero__lead reveal" data-patchwork-id="hero-description">
           Where the delicate artistry of Chinese cuisine meets the royal
           richness of Mughlai cooking — served in an ambience of warmth,
           heritage, and quiet luxury.
         </p>
 
         <div className="hero__actions reveal">
-          <a href="#contact" className="btn btn--gold">
+          <a
+            href="#contact"
+            className="btn btn--gold"
+            data-patchwork-id="hero-reservation-cta"
+          >
             Book a Table
           </a>
           <a href="#menu" className="btn btn--outline">

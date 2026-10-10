@@ -42,11 +42,11 @@ export default function About() {
 
         <div className="about__content reveal">
           <span className="eyebrow">Our Story</span>
-          <h2 className="section-title">
+          <h2 className="section-title" data-patchwork-id="about-heading">
             A Legacy of Flavour, Served with Pride
           </h2>
           <div className="divider" />
-          <p className="about__text">
+          <p className="about__text" data-patchwork-id="about-description">
             Persia Darbar was born from a simple belief — that great food is a
             celebration. For three decades we have brought together the refined
             balance of Chinese cooking and the regal depth of Mughlai cuisine

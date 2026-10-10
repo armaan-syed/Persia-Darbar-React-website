@@ -24,7 +24,12 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="container navbar__inner">
-        <a href="#home" className="brand" onClick={() => setOpen(false)}>
+        <a
+          href="#home"
+          className="brand"
+          data-patchwork-id="navbar-brand"
+          onClick={() => setOpen(false)}
+        >
           <span className="brand__mark">PD</span>
           <span className="brand__text">
             <strong>Persia Darbar</strong>
@@ -46,6 +51,7 @@ export default function Navbar() {
           <a
             href="#contact"
             className="btn btn--gold nav__cta"
+            data-patchwork-id="navbar-cta"
             onClick={() => setOpen(false)}
           >
             Book a Table

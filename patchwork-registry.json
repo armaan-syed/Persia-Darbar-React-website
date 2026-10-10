@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "framework": "react",
+  "repositoryRoot": ".",
+  "routeStyle": "single-page-anchors",
+  "generatedNote": "Generated from src/patchwork/component-registry.js — do not hand-edit. Regenerate with: npm run patchwork:manifest",
+  "components": [
+    {
+      "id": "navbar-brand",
+      "filePath": "src/components/Navbar.jsx",
+      "componentName": "Navbar",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Restaurant brand link in the header (mark + name + strapline).",
+      "route": "/"
+    },
+    {
+      "id": "navbar-cta",
+      "filePath": "src/components/Navbar.jsx",
+      "componentName": "Navbar",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Header 'Book a Table' call-to-action link.",
+      "route": "/"
+    },
+    {
+      "id": "hero-heading",
+      "filePath": "src/components/Hero.jsx",
+      "componentName": "Hero",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Main hero H1: restaurant name.",
+      "route": "/"
+    },
+    {
+      "id": "hero-tagline",
+      "filePath": "src/components/Hero.jsx",
+      "componentName": "Hero",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Hero tagline beneath the title.",
+      "route": "/"
+    },
+    {
+      "id": "hero-description",
+      "filePath": "src/components/Hero.jsx",
+      "componentName": "Hero",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Hero supporting paragraph (lead text).",
+      "route": "/"
+    },
+    {
+      "id": "hero-reservation-cta",
+      "filePath": "src/components/Hero.jsx",
+      "componentName": "Hero",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Hero primary 'Book a Table' button (anchor to #contact).",
+      "route": "/",
+      "notes": "Anchor navigation target (#contact) must be preserved when editing text."
+    },
+    {
+      "id": "about-heading",
+      "filePath": "src/components/About.jsx",
+      "componentName": "About",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Restaurant introduction section heading.",
+      "route": "/"
+    },
+    {
+      "id": "about-description",
+      "filePath": "src/components/About.jsx",
+      "componentName": "About",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "First paragraph of the restaurant story.",
+      "route": "/"
+    },
+    {
+      "id": "menu-section-heading",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Signature dishes / menu section heading.",
+      "route": "/"
+    },
+    {
+      "id": "menu-butter-chicken-darbari-name",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Dish name for Butter Chicken Darbari.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-butter-chicken-darbari-price",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Dish price for Butter Chicken Darbari.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-dragon-chilli-prawns-name",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Dish name for Dragon Chilli Prawns.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-dragon-chilli-prawns-price",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Dish price for Dragon Chilli Prawns.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-murgh-dum-biryani-name",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Dish name for Murgh Dum Biryani.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-murgh-dum-biryani-price",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Dish price for Murgh Dum Biryani.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-hakka-noodles-supreme-name",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Dish name for Hakka Noodles Supreme.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "menu-hakka-noodles-supreme-price",
+      "filePath": "src/components/SignatureDishes.jsx",
+      "componentName": "SignatureDishes",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Dish price for Hakka Noodles Supreme.",
+      "route": "/",
+      "dataSource": "DISHES array in src/components/SignatureDishes.jsx (edit the data object, not just the JSX)."
+    },
+    {
+      "id": "chef-special-heading",
+      "filePath": "src/components/ChefSpecial.jsx",
+      "componentName": "ChefSpecial",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Chef's recommendation dish name heading.",
+      "route": "/"
+    },
+    {
+      "id": "chef-special-description",
+      "filePath": "src/components/ChefSpecial.jsx",
+      "componentName": "ChefSpecial",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Chef's special description paragraph.",
+      "route": "/"
+    },
+    {
+      "id": "chef-special-price",
+      "filePath": "src/components/ChefSpecial.jsx",
+      "componentName": "ChefSpecial",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Chef's special price value.",
+      "route": "/"
+    },
+    {
+      "id": "reservation-heading",
+      "filePath": "src/components/Reservation.jsx",
+      "componentName": "Reservation",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Reservation section heading.",
+      "route": "/"
+    },
+    {
+      "id": "reservation-submit",
+      "filePath": "src/components/Reservation.jsx",
+      "componentName": "Reservation",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Reservation form submit button label.",
+      "route": "/",
+      "notes": "Text-only edits. Must remain type=submit inside the reservation form; do not rewire the submit handler."
+    },
+    {
+      "id": "contact-phone",
+      "filePath": "src/components/Reservation.jsx",
+      "componentName": "Reservation",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Contact phone number in the reservation info list.",
+      "route": "/",
+      "dataSource": "INFO array in src/components/Reservation.jsx (edit the data object, not just the JSX).",
+      "notes": "Display text only; the tel: link lives in Footer.jsx and must be updated separately if the number changes."
+    },
+    {
+      "id": "opening-hours-text",
+      "filePath": "src/components/Reservation.jsx",
+      "componentName": "Reservation",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "styling"
+      ],
+      "description": "Opening-hours line in the reservation info list.",
+      "route": "/",
+      "dataSource": "INFO array in src/components/Reservation.jsx (edit the data object, not just the JSX).",
+      "notes": "Detailed per-day hours live in Footer.jsx and must be updated separately if hours change."
+    },
+    {
+      "id": "footer-about",
+      "filePath": "src/components/Footer.jsx",
+      "componentName": "Footer",
+      "editable": true,
+      "editableScope": "content",
+      "allowedOperations": [
+        "text",
+        "typography",
+        "styling"
+      ],
+      "description": "Footer description paragraph.",
+      "route": "/"
+    }
+  ]
+}

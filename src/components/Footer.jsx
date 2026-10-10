@@ -39,7 +39,7 @@ export default function Footer() {
               <em>Chinese &amp; Mughlai</em>
             </span>
           </div>
-          <p className="footer__about">
+          <p className="footer__about" data-patchwork-id="footer-about">
             Authentic Chinese &amp; Mughlai flavours, crafted with tradition and
             served with warmth since 1994.
           </p>

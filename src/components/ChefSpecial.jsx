@@ -18,9 +18,14 @@ export default function ChefSpecial() {
 
         <div className="chef__content reveal">
           <span className="eyebrow">This Month’s Highlight</span>
-          <h2 className="section-title">Shahi Murgh Platter</h2>
+          <h2
+            className="section-title"
+            data-patchwork-id="chef-special-heading"
+          >
+            Shahi Murgh Platter
+          </h2>
           <div className="divider" />
-          <p className="chef__text">
+          <p className="chef__text" data-patchwork-id="chef-special-description">
             Our Chef’s most-prized creation — a royal platter pairing
             saffron-infused Mughlai chicken with crisp, wok-charred Chinese
             greens. Slow-cooked for hours and finished at your table for a
@@ -38,7 +43,7 @@ export default function ChefSpecial() {
             </li>
             <li>
               <span>Price</span>
-              <strong>₹899</strong>
+              <strong data-patchwork-id="chef-special-price">₹899</strong>
             </li>
           </ul>
 

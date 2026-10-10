@@ -35,13 +35,24 @@ const DISHES = [
   },
 ];
 
+const slugify = (name) =>
+  name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
 export default function SignatureDishes() {
   return (
     <section id="menu" className="section signature">
       <div className="container">
         <div className="center signature__head reveal">
           <span className="eyebrow eyebrow--center">Signature Dishes</span>
-          <h2 className="section-title">Favourites From Our Kitchen</h2>
+          <h2
+            className="section-title"
+            data-patchwork-id="menu-section-heading"
+          >
+            Favourites From Our Kitchen
+          </h2>
           <div className="divider divider--center" />
           <p className="section-subtitle">
             A curated selection where Chinese finesse meets Mughlai
@@ -63,8 +74,17 @@ export default function SignatureDishes() {
               </div>
               <div className="dish__body">
                 <div className="dish__row">
-                  <h3>{dish.name}</h3>
-                  <span className="dish__price">{dish.price}</span>
+                  <h3
+                    data-patchwork-id={`menu-${slugify(dish.name)}-name`}
+                  >
+                    {dish.name}
+                  </h3>
+                  <span
+                    className="dish__price"
+                    data-patchwork-id={`menu-${slugify(dish.name)}-price`}
+                  >
+                    {dish.price}
+                  </span>
                 </div>
                 <p>{dish.desc}</p>
               </div>

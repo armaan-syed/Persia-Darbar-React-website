@@ -5,14 +5,17 @@ const INFO = [
   {
     label: "Visit Us",
     value: "12 Mall Road, Grand Heritage Plaza, Lahore",
+    patchworkId: null,
   },
   {
     label: "Call to Reserve",
     value: "+92 300 123 4567",
+    patchworkId: "contact-phone",
   },
   {
     label: "Opening Hours",
     value: "Daily · 12:00 PM – 12:00 AM",
+    patchworkId: "opening-hours-text",
   },
 ];
 
@@ -29,7 +32,9 @@ export default function Reservation() {
       <div className="container reservation__grid">
         <div className="reservation__intro reveal">
           <span className="eyebrow">Reservations</span>
-          <h2 className="section-title">Reserve Your Table</h2>
+          <h2 className="section-title" data-patchwork-id="reservation-heading">
+            Reserve Your Table
+          </h2>
           <div className="divider" />
           <p className="reservation__text">
             Join us for an evening of Chinese finesse and Mughlai indulgence.
@@ -43,7 +48,13 @@ export default function Reservation() {
                 <span className="reservation__dot" aria-hidden="true" />
                 <div>
                   <strong>{item.label}</strong>
-                  <p>{item.value}</p>
+                  <p
+                    {...(item.patchworkId
+                      ? { "data-patchwork-id": item.patchworkId }
+                      : {})}
+                  >
+                    {item.value}
+                  </p>
                 </div>
               </li>
             ))}
@@ -128,7 +139,11 @@ export default function Reservation() {
                 />
               </label>
 
-              <button type="submit" className="btn btn--gold reservation__submit">
+              <button
+                type="submit"
+                className="btn btn--gold reservation__submit"
+                data-patchwork-id="reservation-submit"
+              >
                 Confirm Reservation
               </button>
             </form>

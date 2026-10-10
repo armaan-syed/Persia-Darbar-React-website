@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "patchwork:manifest": "node scripts/generate-patchwork-manifest.mjs",
+    "patchwork:validate": "node scripts/validate-patchwork-registry.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

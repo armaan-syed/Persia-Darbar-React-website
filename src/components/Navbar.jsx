@@ -53,6 +53,7 @@ export default function Navbar() {
             className="btn btn--gold nav__cta"
             data-patchwork-id="navbar-cta"
             onClick={() => setOpen(false)}
+            style={{ backgroundColor: 'blue', color: 'white' }}
           >
             Book a Table
           </a>

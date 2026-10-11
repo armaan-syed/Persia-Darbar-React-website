@@ -19,7 +19,7 @@ export default function Hero() {
           className="hero__tagline reveal"
           data-patchwork-id="hero-tagline"
         >
-          Authentic Chinese &amp; Mughlai Flavours, Crafted with Tradition
+          Authentic Chinese &amp; Mughlai Flavours, Served with Royal Hospitality
         </p>
 
         <p className="hero__lead reveal" data-patchwork-id="hero-description">

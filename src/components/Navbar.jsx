@@ -50,7 +50,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="btn btn--gold nav__cta"
+            className="btn btn--gold nav__cta" style="background-color:#0000ff;color:#fff;"
             data-patchwork-id="navbar-cta"
             onClick={() => setOpen(false)}
           >

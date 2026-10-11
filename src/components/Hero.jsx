@@ -10,7 +10,7 @@ export default function Hero() {
         <p className="hero__eyebrow reveal">Est. 1994 · Lahore · Dubai</p>
 
         <h1 className="hero__title reveal" data-patchwork-id="hero-heading">
-          Persia <span>Darbar</span>
+          Welcome to Persia Darbar
         </h1>
 
         <div className="hero__rule reveal" />
